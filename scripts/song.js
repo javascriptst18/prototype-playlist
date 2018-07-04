@@ -1,4 +1,12 @@
-function Song(){
-    //Låten ska ha två parametrar: title, artist
-    //Förutom det ska låten även ha en bool: isPlaying
+/**
+ * Song with title and artist
+ * @param {String} title  Title of song
+ * @param {String} artist Artist who performs song
+ */
+function Song(title, artist){
+    this.title = title;
+    this.artist = artist;
+    this.isPlaying = false;
 }
+
+
